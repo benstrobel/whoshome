@@ -13,6 +13,7 @@
 		C04B1B4223AE632E00E843D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04B1B4023AE632E00E843D1 /* Main.storyboard */; };
 		C04B1B4423AE632F00E843D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04B1B4323AE632F00E843D1 /* Assets.xcassets */; };
 		C04B1B4723AE632F00E843D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04B1B4523AE632F00E843D1 /* LaunchScreen.storyboard */; };
+		C0DF1F4023AE8ED000C2302F /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DF1F3E23AE8ED000C2302F /* SimplePing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		C04B1B4323AE632F00E843D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04B1B4623AE632F00E843D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04B1B4823AE632F00E843D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0DF1F3D23AE8ECF00C2302F /* WhosHome-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhosHome-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0DF1F3E23AE8ED000C2302F /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		C0DF1F3F23AE8ED000C2302F /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,12 @@
 				C04B1B3C23AE632E00E843D1 /* SceneDelegate.swift */,
 				C04B1B3E23AE632E00E843D1 /* ViewController.swift */,
 				C04B1B4023AE632E00E843D1 /* Main.storyboard */,
-				C04B1B4323AE632F00E843D1 /* Assets.xcassets */,
 				C04B1B4523AE632F00E843D1 /* LaunchScreen.storyboard */,
+				C04B1B4323AE632F00E843D1 /* Assets.xcassets */,
 				C04B1B4823AE632F00E843D1 /* Info.plist */,
+				C0DF1F3F23AE8ED000C2302F /* SimplePing.h */,
+				C0DF1F3E23AE8ED000C2302F /* SimplePing.m */,
+				C0DF1F3D23AE8ECF00C2302F /* WhosHome-Bridging-Header.h */,
 			);
 			path = WhosHome;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 				TargetAttributes = {
 					C04B1B3623AE632E00E843D1 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -141,6 +149,7 @@
 				C04B1B3F23AE632E00E843D1 /* ViewController.swift in Sources */,
 				C04B1B3B23AE632E00E843D1 /* AppDelegate.swift in Sources */,
 				C04B1B3D23AE632E00E843D1 /* SceneDelegate.swift in Sources */,
+				C0DF1F4023AE8ED000C2302F /* SimplePing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WhosHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,6 +302,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.benstrobel.WhosHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhosHome/WhosHome-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WhosHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.benstrobel.WhosHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhosHome/WhosHome-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
