@@ -13,6 +13,7 @@
 		C04B1B4223AE632E00E843D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04B1B4023AE632E00E843D1 /* Main.storyboard */; };
 		C04B1B4423AE632F00E843D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04B1B4323AE632F00E843D1 /* Assets.xcassets */; };
 		C04B1B4723AE632F00E843D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04B1B4523AE632F00E843D1 /* LaunchScreen.storyboard */; };
+		C0AA1D7823B0D65C009E4DEE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AA1D7723B0D65C009E4DEE /* icon.png */; };
 		C0DF1F4023AE8ED000C2302F /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DF1F3E23AE8ED000C2302F /* SimplePing.m */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		C04B1B4323AE632F00E843D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04B1B4623AE632F00E843D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04B1B4823AE632F00E843D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0AA1D7723B0D65C009E4DEE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		C0DF1F3D23AE8ECF00C2302F /* WhosHome-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhosHome-Bridging-Header.h"; sourceTree = "<group>"; };
 		C0DF1F3E23AE8ED000C2302F /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
 		C0DF1F3F23AE8ED000C2302F /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				C04B1B4523AE632F00E843D1 /* LaunchScreen.storyboard */,
 				C04B1B4323AE632F00E843D1 /* Assets.xcassets */,
 				C04B1B4823AE632F00E843D1 /* Info.plist */,
+				C0AA1D7723B0D65C009E4DEE /* icon.png */,
 				C0DF1F3F23AE8ED000C2302F /* SimplePing.h */,
 				C0DF1F3E23AE8ED000C2302F /* SimplePing.m */,
 				C0DF1F3D23AE8ECF00C2302F /* WhosHome-Bridging-Header.h */,
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0AA1D7823B0D65C009E4DEE /* icon.png in Resources */,
 				C04B1B4723AE632F00E843D1 /* LaunchScreen.storyboard in Resources */,
 				C04B1B4423AE632F00E843D1 /* Assets.xcassets in Resources */,
 				C04B1B4223AE632E00E843D1 /* Main.storyboard in Resources */,

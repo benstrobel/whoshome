@@ -18,8 +18,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="z91-Nz-kl0">
                                 <rect key="frame" x="112" y="310" width="150" height="46"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who is Home?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fw8-24-5kB">
-                                        <rect key="frame" x="0.0" y="0.0" width="110.5" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who is Home 1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fw8-24-5kB">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -32,9 +32,14 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="fUY-Tl-bAo">
+                                <rect key="frame" x="127" y="182" width="120" height="120"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="fUY-Tl-bAo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="E1y-G0-bqU"/>
+                            <constraint firstItem="fUY-Tl-bAo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="182" id="bLA-ZQ-io2"/>
                             <constraint firstItem="z91-Nz-kl0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="310" id="wlL-Ov-VW9"/>
                             <constraint firstItem="z91-Nz-kl0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="yKG-dz-H91"/>
                         </constraints>
@@ -46,4 +51,7 @@
             <point key="canvasLocation" x="50.399999999999999" y="373.76311844077964"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon.png" width="120" height="120"/>
+    </resources>
 </document>
