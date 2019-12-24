@@ -27,13 +27,11 @@ class ViewController: UIViewController, SimplePingDelegate{
     var philipppinger: SimplePing?
     var maxipinger: SimplePing?
     var benpinger: SimplePing?
-    //let gertiaddress = "GertiHandy.fritz.box";
+    let gertiaddress = "GertiHandy.fritz.box";
     let williaddress = "WilliHandy.fritz.box";
-    //let maxiaddress = "MaxiHandy.fritz.box";
+    let maxiaddress = "MaxiHandy.fritz.box";
     let philippaddress = "PhilippHandy.fritz.box";
     let benaddress = "BenHandy.fritz.box";
-    let gertiaddress = "www.google.de"
-    let maxiaddress = "benstrobel.de"
     //MARK: Actions
         
     @IBAction func refreshButton(_ sender: UIButton) {
@@ -101,6 +99,7 @@ class ViewController: UIViewController, SimplePingDelegate{
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        dispatchButton()
         // Do any additional setup after loading the view.
     }
 
